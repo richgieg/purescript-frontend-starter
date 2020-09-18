@@ -3,25 +3,29 @@ Starter repo for PureScript front end development
 
 ## Get Started
 
-1. Clone this repo to `my-project` and remove its .git directory
 ```sh
-npx degit richgieg/purescript-frontend-started my-project
-```
 
-2. Enter `my-project` and initialize new git repository
-```sh
+# 1. Clone this repo to my-project and remove its .git directory
+
+npx degit richgieg/purescript-frontend-started my-project
+
+# 2. Enter my-project and initialize new git repository
+
 cd my-project
 git init
-```
 
-3. Write some PureScript in `src/Main.purs`
+# 3. Install dependencies
 
-4. Build project
-```sh
+npm install
+
+# 4. Write some PureScript in src/Main.purs
+
+# 5. Build project
+
 npm run build
-```
 
-5. Launch development web server
-```sh
+# 6. Launch development web server
+
 npm run serve
+
 ```
