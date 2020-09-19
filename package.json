@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "spago bundle-app -t ./www/main.js",
-    "serve": "http-server www -c-1"
+    "serve": "http-server www -c-1",
+    "watch": "spago bundle-app -t ./www/main.js --watch"
   }
 }
